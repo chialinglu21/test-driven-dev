@@ -1,0 +1,34 @@
+{
+  "name": "test-driven-dev",
+  "version": "1.0.0",
+  "description": "test-driven development practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chialinglu21/test-driven-dev.git"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "Lynn Lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chialinglu21/test-driven-dev/issues"
+  },
+  "homepage": "https://github.com/chialinglu21/test-driven-dev#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.5.1",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.2"
+  }
+}
